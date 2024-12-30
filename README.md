@@ -17,7 +17,9 @@ Jupyter Notebook
 ### Algorithms
 
 Random Forest
+<Br>
 Logistic Regresion
+<Br>
 Support Vector Machine
 
 ### Steps
