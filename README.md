@@ -24,22 +24,22 @@ Support Vector Machine
 
 ### Steps
 
-## Data Loading and Inspection
+<b> Data Loading and Inspection </b>
 
 The HR dataset is loaded, which contains employee details like age, salary, and job satisfaction. We check for missing data and analyze the basic statistics to understand the dataset.
 
-## Data Preprocessing
+<b> Data Preprocessing </b>
 
 The target variable (Attrition) is separated from the features (e.g., age, salary). Categorical variables (like gender, department) are converted into numerical values using one-hot encoding. Features are scaled to ensure all inputs are on a similar scale for better model performance.
 
-## Model Training
+<b> Model Training </b>
 
 The dataset is split into training and testing sets. Three machine learning models are trained:
 Logistic Regression: A simple model for binary classification (leave or stay).
 Random Forest Classifier: A more complex model that uses decision trees.
 Support Vector Machine (SVM): A model that tries to separate the data into two categories with an optimal boundary.
 
-## Model Evaluation
+<b> Model Evaluation </b>
 
 Predictions are made on the test data, and accuracy is calculated.
 Accuracy tells us how often the model is correct. The models show around 87-88% accuracy.
